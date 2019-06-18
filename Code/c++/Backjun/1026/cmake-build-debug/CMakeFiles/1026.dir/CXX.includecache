@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hoho/Desktop/Programming/algorithm/Code/c++/Backjun/1026/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+

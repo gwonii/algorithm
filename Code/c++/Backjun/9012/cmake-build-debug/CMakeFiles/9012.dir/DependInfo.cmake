@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/hoho/Desktop/Programming/Programming/CodingTest/Code/c++/Backjun/9012/main.cpp" "C:/Users/hoho/Desktop/Programming/Programming/CodingTest/Code/c++/Backjun/9012/cmake-build-debug/CMakeFiles/9012.dir/main.cpp.obj"
+  "C:/Users/hoho/Desktop/Programming/algorithm/Code/c++/Backjun/9012/main.cpp" "C:/Users/hoho/Desktop/Programming/algorithm/Code/c++/Backjun/9012/cmake-build-debug/CMakeFiles/9012.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

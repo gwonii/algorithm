@@ -49,10 +49,10 @@ RM = "C:\Users\hoho\AppData\Local\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cma
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\hoho\Desktop\Programming\Programming\CodingTest\Code\c++\Backjun\9012
+CMAKE_SOURCE_DIR = C:\Users\hoho\Desktop\Programming\algorithm\Code\c++\Backjun\9012
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\hoho\Desktop\Programming\Programming\CodingTest\Code\c++\Backjun\9012\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\hoho\Desktop\Programming\algorithm\Code\c++\Backjun\9012\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -81,9 +81,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hoho\Desktop\Programming\Programming\CodingTest\Code\c++\Backjun\9012\cmake-build-debug\CMakeFiles C:\Users\hoho\Desktop\Programming\Programming\CodingTest\Code\c++\Backjun\9012\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hoho\Desktop\Programming\algorithm\Code\c++\Backjun\9012\cmake-build-debug\CMakeFiles C:\Users\hoho\Desktop\Programming\algorithm\Code\c++\Backjun\9012\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hoho\Desktop\Programming\Programming\CodingTest\Code\c++\Backjun\9012\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hoho\Desktop\Programming\algorithm\Code\c++\Backjun\9012\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

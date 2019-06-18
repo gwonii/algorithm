@@ -27,20 +27,21 @@ bool Check(string str){
 
 int main() {
 
-    int T;
-    cin >> T;
+//    int T;
+//    cin >> T;
+//
+//    while(T--) {
+//        string str;
+//        cin >> str;
+//
+//        if(Check(str)) {
+//            printf("%s\n", "YES");
+//        } else {
+//            printf("%s\n", "NO");
+//        }
+//    }
+//    return 0;
 
-    while(T--) {
-        string str;
-        cin >> str;
-
-        if(Check(str)) {
-            printf("%s\n", "YES");
-        } else {
-            printf("%s\n", "NO");
-        }
-    }
-    return 0;
 
 }
 
