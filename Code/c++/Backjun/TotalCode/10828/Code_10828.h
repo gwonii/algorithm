@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_10828_H
 #define TOTALCODE_CODE_10828_H
 
+void method_10828();
 
 class Code_10828 {
 
