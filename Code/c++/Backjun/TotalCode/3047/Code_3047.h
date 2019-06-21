@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_3047_H
 #define TOTALCODE_CODE_3047_H
 
+void method_3047();
 
 class Code_3047 {
 
