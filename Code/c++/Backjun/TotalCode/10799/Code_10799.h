@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_10799_H
 #define TOTALCODE_CODE_10799_H
 
+int method_10799();
 
 class Code_10799 {
 
