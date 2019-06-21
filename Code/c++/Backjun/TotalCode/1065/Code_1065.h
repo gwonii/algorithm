@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_1065_H
 #define TOTALCODE_CODE_1065_H
 
+void method_1065();
 
 class Code_1065 {
 
