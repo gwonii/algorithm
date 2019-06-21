@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_1026_H
 #define TOTALCODE_CODE_1026_H
 
+int method_1026();
 
 class Code_1026 {
 
