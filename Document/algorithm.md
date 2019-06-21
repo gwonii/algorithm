@@ -14,3 +14,6 @@
 * 특정한 값을 기준으로 큰 숫자와 작은 숫자를 나눈다. 
 * 시간 복잡도 : O(NlogN)
 
+> <https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html>
+>
+> 알고리즘 진행 과정 
