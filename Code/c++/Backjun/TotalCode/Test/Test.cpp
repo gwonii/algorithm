@@ -3,3 +3,24 @@
 //
 
 #include "Test.h"
+#include <iostream>
+
+using namespace std;
+
+
+class Student{
+public:
+    string name;
+    int score;
+    Student(string name, int score ){
+        this->name = name;
+        this->score = score;
+    }
+
+
+};
+
+
+void mainMethod(){
+
+}
