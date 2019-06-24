@@ -1,5 +1,5 @@
 
-#include "3047/Code_3047.h"
+#include "1920/Code_1920.h"
 
 #include <iostream>
 
@@ -7,5 +7,6 @@ using namespace std;
 
 int main() {
 
-    method_3047();
+    method_1920();
 }
+
