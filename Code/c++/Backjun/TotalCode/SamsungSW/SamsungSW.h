@@ -11,6 +11,10 @@
 #include "1_math/1978/Code_1978.h"      // 소수 찾기
 #include "1_math/6588/Code_6588.h"      // 골드바흐의 추측
 
+#include "2_bruteForce/2309/Code_2309.h"    // 일곱 난쟁이
+#include "2_bruteForce/1476/Code_1476.h"    // 날짜 계산
+#include "2_bruteForce/14500/Code_14500.h"  // 테트로미노
+
 
 #include "GCD/Code_gcd.h"
 #include "LCM/Code_lcm.h"
