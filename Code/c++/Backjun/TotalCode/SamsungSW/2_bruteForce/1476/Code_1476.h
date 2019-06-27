@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_1476_H
 #define TOTALCODE_CODE_1476_H
 
+void method_1476();
 
 class Code_1476 {
 

@@ -3,3 +3,12 @@
 //
 
 #include "Code_14500.h"
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+void method_14500(){
+
+}

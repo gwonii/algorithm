@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_2309_H
 #define TOTALCODE_CODE_2309_H
 
+void method_2309();
 
 class Code_2309 {
 
