@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_6588_H
 #define TOTALCODE_CODE_6588_H
 
+void method_6588();
 
 class Code_6588 {
 
