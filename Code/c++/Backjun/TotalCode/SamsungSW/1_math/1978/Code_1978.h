@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_1978_H
 #define TOTALCODE_CODE_1978_H
 
+void method_1978();
 
 class Code_1978 {
 
