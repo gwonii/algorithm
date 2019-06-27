@@ -11,7 +11,7 @@
 using namespace std;
 
 void mysearch() {
-    
+
 }
 
 void method_2805() {
