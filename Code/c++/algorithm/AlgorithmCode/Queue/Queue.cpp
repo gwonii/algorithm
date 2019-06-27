@@ -10,7 +10,7 @@
 
 using namespace std;
 
-void queueMethod() {
+void method_queue() {
 
     int T;
     string message;

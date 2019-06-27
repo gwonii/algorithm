@@ -8,7 +8,7 @@
 
 int main() {
 
-    quickSort();
+    method_DFS();
 
     return 0;
 }

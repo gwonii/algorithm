@@ -5,7 +5,7 @@
 #ifndef ALGORITHMCODE_QUEUE_H
 #define ALGORITHMCODE_QUEUE_H
 
-void queueMethod();
+void method_queue();
 
 class Queue {
 

@@ -23,7 +23,7 @@ int compare(const void *a, const void *b){
     }
 }
 
-void quickSortAlgo(int data[], int start, int end){
+void inner_quickSort(int data[], int start, int end){
 
     if(start >= end){
         return;
@@ -53,18 +53,18 @@ void quickSortAlgo(int data[], int start, int end){
         }
     }
 
-    quickSortAlgo(data,start, j-1);
-    quickSortAlgo(data,j+1,end);
+    inner_quickSort(data,start, j-1);
+    inner_quickSort(data,j+1,end);
 
 }
 
-void quickSort() {
+void method_quickSort() {
 
     int number = 10;
     int data[10] = {1,10,5,8,7,6,4,3,2,9};
 
 
-    quickSortAlgo(data,0,number-1);
+    inner_quickSort(data,0,number-1);
 
     for(int i : data){
         printf("%d\n", i);

@@ -5,6 +5,7 @@
 #ifndef ALGORITHMCODE_BFS_H
 #define ALGORITHMCODE_BFS_H
 
+void method_BFS();
 
 class BFS {
 

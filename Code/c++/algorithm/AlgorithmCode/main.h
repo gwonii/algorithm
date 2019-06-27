@@ -8,5 +8,8 @@
 #include "BubbleSort/BubbleSort.h"
 #include "Queue/Queue.h"
 #include "QuickSort/QuickSort.h"
+#include "BFS/BFS.h"
+#include "DFS/DFS.h"
+
 
 #endif //ALGORITHMCODE_MAIN_H
