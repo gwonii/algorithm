@@ -5,6 +5,7 @@
 #ifndef ALGORITHMCODE_QUICKSORT_H
 #define ALGORITHMCODE_QUICKSORT_H
 
+void quickSort();
 
 class QuickSort {
 

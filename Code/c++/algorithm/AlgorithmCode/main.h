@@ -5,4 +5,8 @@
 #ifndef ALGORITHMCODE_MAIN_H
 #define ALGORITHMCODE_MAIN_H
 
+#include "BubbleSort/BubbleSort.h"
+#include "Queue/Queue.h"
+#include "QuickSort/QuickSort.h"
+
 #endif //ALGORITHMCODE_MAIN_H

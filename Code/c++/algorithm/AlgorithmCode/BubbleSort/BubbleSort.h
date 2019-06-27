@@ -5,6 +5,7 @@
 #ifndef ALGORITHMCODE_BUBBLESORT_H
 #define ALGORITHMCODE_BUBBLESORT_H
 
+void bubbleSort();
 
 class BubbleSort {
 
