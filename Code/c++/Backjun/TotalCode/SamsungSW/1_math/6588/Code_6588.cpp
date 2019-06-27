@@ -16,6 +16,7 @@ void method_6588() {
     cin.tie(0);
 
     int const MAX = 1000001;
+    bool canFalg = false;
 
     bool isPrime[MAX];
     vector<int> primeNum;
@@ -40,18 +41,20 @@ void method_6588() {
         int N;
         cin >> N;
 
-        if (N == 0){
+        if (N == 0) {
             break;
         }
 
-        for(int i = 0; i < primeNum.size(); i++){
-            if(isPrime[N-primeNum[i]]){
-                cout << N << " = "<< primeNum[i] << " + " <<
-                        N - primeNum[i] <<  "\n";
+        for (int i = 0; i < primeNum.size(); i++) {
+            if (isPrime[N - primeNum[i]]) {
+                cout << N << " = " << primeNum[i] << " + " <<
+                     N - primeNum[i] << "\n";
+                canFalg = true;
                 break;
-            } else {
-                cout << "\"Goldbach's conjecture is wrong.\"" << "\n";
             }
+        }
+        if (!canFalg) {
+            cout << "\"Goldbach's conjecture is wrong.\"" << "\n";
         }
     }
 }
