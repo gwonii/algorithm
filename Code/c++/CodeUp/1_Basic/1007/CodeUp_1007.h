@@ -5,6 +5,7 @@
 #ifndef CODEUP_CODEUP_1007_H
 #define CODEUP_CODEUP_1007_H
 
+void method_1007();
 
 class CodeUp_1007 {
 

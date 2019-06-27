@@ -5,7 +5,7 @@
 #ifndef CODEUP_CODEUP_1022_H
 #define CODEUP_CODEUP_1022_H
 
-
+void method_1022();
 class CodeUp_1022 {
 
 };
