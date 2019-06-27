@@ -7,7 +7,7 @@ using namespace std;
 
 int main() {
 
-    method_6588();
+    method_1476();
 }
 
 
