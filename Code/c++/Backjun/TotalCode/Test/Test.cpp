@@ -8,19 +8,12 @@
 using namespace std;
 
 
-class Student{
-public:
-    string name;
-    int score;
-    Student(string name, int score ){
-        this->name = name;
-        this->score = score;
+void testAR(){
+
+    bool isPrime[1001];
+
+    for(int i = 0; i < 10; i++){
+        printf("%d", isPrime[i]);
     }
-
-
-};
-
-
-void mainMethod(){
 
 }

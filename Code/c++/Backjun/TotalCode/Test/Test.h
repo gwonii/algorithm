@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_TEST_H
 #define TOTALCODE_TEST_H
 
+void testAR();
 
 class Test {
 
