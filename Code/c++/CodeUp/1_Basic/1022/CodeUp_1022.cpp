@@ -10,6 +10,7 @@
 using namespace std;
 
 void method_1022(){
+
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
 

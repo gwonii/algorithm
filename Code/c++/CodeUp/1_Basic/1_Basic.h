@@ -14,4 +14,11 @@
 
 #include "1022/CodeUp_1022.h"       // 문장 한 개 입력받아
                                     // 그대로 출력하기
+
+#include "1023/CodeUp_1023.h"       // 실수 한 개 입력받아
+                                    // 부분별로 출력하기
+
+#include "1025/CodeUp_1025.h"       // 정수 한 개 입력받아
+                                    // 나누어 출력하기
+
 #endif //CODEUP_1_BASIC_H
