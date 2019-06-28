@@ -3,5 +3,5 @@
 
 int main() {
 
-    method_1022();
+    method_1025();
 }
