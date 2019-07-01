@@ -7,7 +7,10 @@ using namespace std;
 
 int main() {
 
-    method_1476();
+    method_1759();
+
+    return 0;
 }
+
 
 

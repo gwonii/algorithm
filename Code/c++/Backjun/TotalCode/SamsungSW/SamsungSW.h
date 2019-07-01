@@ -14,6 +14,13 @@
 #include "2_bruteForce/2309/Code_2309.h"    // 일곱 난쟁이
 #include "2_bruteForce/1476/Code_1476.h"    // 날짜 계산
 #include "2_bruteForce/14500/Code_14500.h"  // 테트로미노
+#include "2_bruteForce/9095/Code_9095.h"    // 1,2,3 더하기
+#include "2_bruteForce/10972/Code_10972.h"  // 다음 순열
+#include "2_bruteForce/10819/Code_10819.h"  // 차이를 최대로
+#include "2_bruteForce/10971/Code_10971.h"  // 외판원 순회2
+#include "2_bruteForce/6603/Code_6603.h"    // 로또
+#include "2_bruteForce/14888/Code_14888.h"  // 연산자 끼워넣기
+#include "2_bruteForce/1759/Code_1759.h"    // 암호 만들기
 
 
 #include "GCD/Code_gcd.h"

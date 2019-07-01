@@ -5,6 +5,8 @@
 #ifndef TOTALCODE_CODE_14888_H
 #define TOTALCODE_CODE_14888_H
 
+void method_14888();
+void method_14888v2();
 
 class Code_14888 {
 

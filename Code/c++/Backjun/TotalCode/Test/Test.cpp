@@ -8,12 +8,14 @@
 using namespace std;
 
 
-void testAR(){
+void testMethod(){
 
-    bool isPrime[1001];
 
-    for(int i = 0; i < 10; i++){
-        printf("%d", isPrime[i]);
-    }
+    char input = 'a';
+    cout << input << "\n";
+    cout << (int)input << "\n";
+    int arr[5] = {1,2,3,4,5};
+    cout << arr[(int)input] << "\n";
+
 
 }

@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_6603_H
 #define TOTALCODE_CODE_6603_H
 
+void method_6603();
 
 class Code_6603 {
 

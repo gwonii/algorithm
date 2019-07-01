@@ -5,6 +5,7 @@
 #ifndef TOTALCODE_CODE_10819_H
 #define TOTALCODE_CODE_10819_H
 
+void method_10819();
 
 class Code_10819 {
 
