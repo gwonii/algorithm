@@ -90,4 +90,69 @@ getline(cin, inputString);
 cout << inputString << "\n";
 ```
 
-> 
+
+
+### 4. 이차원 배열의 사용 
+
+* 이차원 배열을 사용하는 방법을 살펴보자.
+
+#### 개인적으로 생각했던 방식  
+
+```c++
+#include <iostream>
+
+int main() {
+    int N;
+    cin >> N;
+    
+    int arr[N][N];
+    for(int i = 0; i < N; i++){
+        for(int j = 0; j < N; j++){
+        	cin >> arr[i][j];    
+        }
+    }
+    
+    for(int i = 0; i < N; i++){
+        for(int j = 0; j < N; j++){
+            cout >> arr[i][j] >> " ";
+        }
+        cout >> "\n";
+    }
+    
+    return 0;
+}
+```
+
+> 기존에는 깊게 생각하지 않고 이렇게 사용을 해보려고 하였다. 하지만 문제가 발생하게 되었고 이차원 배열의 선언에 있어서 메모리 할당이 잘못되었다는 것을 발견했다. 
+
+#### 수정된 방식
+
+```c++
+#include <iostream>
+
+int main() {
+    int N;
+    cin >> N;
+    
+    int **circle = new int*[N];		// 먼저 **를 이용하여 1차원의 배열의 주소값을 지정한다. 
+    for(int i = 0; i < N; i++){
+        circle[i] = new int[N];		// 그런 후 2차원 배열에 해당하는 부분에 1차원 메모리 공간을 할당해준다. 
+    }		
+    
+    for(int i = 0; i < N; i++){
+        for(int j = 0; j < N; j++){
+        	cin >> arr[i][j];    
+        }
+    }
+    
+    for(int i = 0; i < N; i++){
+        for(int j = 0; j < N; j++){
+            cout >> arr[i][j] >> " ";
+        }
+        cout >> "\n";
+    }
+    
+    return 0;
+}
+```
+
