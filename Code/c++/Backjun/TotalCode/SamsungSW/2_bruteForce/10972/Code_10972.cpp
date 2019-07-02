@@ -5,31 +5,29 @@
 #include "Code_10972.h"
 
 #include <iostream>
-#include <vector>
 #include <algorithm>
 
 using namespace std;
 
+int N_10972;
+int inputNum_10972[10001];
+
 void method_10972(){
 
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
+    ios_base::sync_with_stdio(false) , cin.tie(0), cout.tie(0);
 
-    int n;
-    cin >> n;
+    cin >> N_10972;
 
-    vector<int> value(n);
 
-    for(int i = 0; i < n; i++){
-        value[i] = i+1;
+    for(int i = 0; i < N_10972; i++){
+        cin >> inputNum_10972[i];
     }
 
-    do{
-        for(int i = 0; i < n; i++){
-            cout << value[i] << " ";
+    if(next_permutation(inputNum_10972, inputNum_10972 + N_10972)){
+        for(int i = 0; i < N_10972; i++){
+            cout << inputNum_10972[i] << " ";
         }
-        cout << "\n";
-    } while(next_permutation(value.begin(),value.end()));
-
-
+    } else {
+        cout << -1 << "\n";
+    }
 }
