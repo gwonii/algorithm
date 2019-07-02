@@ -72,3 +72,9 @@ fabric.properties
 CMakeLists.txt
 
 .idea
+
+# for algorithm
+
+.h
+main.cpp
+
