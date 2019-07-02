@@ -18,6 +18,8 @@
 #include "2_bruteForce/14500/Code_14500.h"  // 테트로미노
 #include "2_bruteForce/9095/Code_9095.h"    // 1,2,3 더하기
 #include "2_bruteForce/10972/Code_10972.h"  // 다음 순열
+#include "2_bruteForce/10973/Code_10973.h"  // 이전 순열
+#include "2_bruteForce/10974/Code_10974.h"  // 모든 순열
 #include "2_bruteForce/10819/Code_10819.h"  // 차이를 최대로
 #include "2_bruteForce/10971/Code_10971.h"  // 외판원 순회2
 #include "2_bruteForce/6603/Code_6603.h"    // 로또
