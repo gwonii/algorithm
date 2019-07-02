@@ -37,7 +37,7 @@ void method_10971() {
 
     int min = 0;
     int temp;
-    while (next_permutation(circleIndex.begin(), circleIndex.end())) {
+    do {
         temp = 0;
         for (int i = 0; i < N; i++) {
             if (i == N - 1) {
@@ -51,14 +51,13 @@ void method_10971() {
             }
             temp += circle[circleIndex[i]][circleIndex[i + 1]];
         }
-        if (temp != 0) {
             if (min == 0) {
                 min = temp;
             } else if (min > temp) {
                 min = temp;
             }
-        }
-    }
+
+    } while (next_permutation(circleIndex.begin(), circleIndex.end()));
 
     cout << min << "\n";
 
