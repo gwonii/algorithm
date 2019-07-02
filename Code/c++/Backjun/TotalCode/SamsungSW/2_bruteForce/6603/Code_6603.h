@@ -6,6 +6,8 @@
 #define TOTALCODE_CODE_6603_H
 
 void method_6603();
+void method_6603_v2();
+void method_6603_v3();
 
 class Code_6603 {
 
