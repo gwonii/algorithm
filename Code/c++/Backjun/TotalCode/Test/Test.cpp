@@ -13,7 +13,7 @@ void multiTable(int n) {
         cout << "end" << "\n";
         return;
     }
-    cout << "2 * n" << 2 * n << "\n";
+    cout << "2 * " << n << " = " << 2 * n << "\n";
     multiTable(n + 1);
 }
 
