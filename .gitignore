@@ -75,9 +75,14 @@ CMakeLists.txt
 
 # for algorithm
 
+## codeUp
+
+1_Basic.h
+
+
+## Baekjoon
 
 Test*/
-
 SamsungSW/SamsungSW.h
 main.h
 main.cpp
