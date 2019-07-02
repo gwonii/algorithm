@@ -43,7 +43,6 @@ void dfs(int index, int count, string word) {
         return;
     }
 
-
     for (int i = index; i < C_1759; i++) {
         dfs(i + 1, count + 1, word + inputChar[i]);
         dfs(i + 1, count, word);

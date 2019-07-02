@@ -35,5 +35,5 @@ void method_9095(){
         }
         cout << arr[value] << "\n";
     }
-
 }
+

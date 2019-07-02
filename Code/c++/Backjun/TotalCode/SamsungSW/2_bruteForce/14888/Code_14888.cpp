@@ -35,7 +35,6 @@ void dfs(int index, int plus, int sub, int multi, int div, int total) {
     if (div < d) {
         dfs(index + 1, plus, sub, multi, div + 1, total / inputNum[index]);
     }
-
 }
 
 void method_14888v2() {
@@ -47,7 +46,6 @@ void method_14888v2() {
     }
 
     cin >> p >> s >> m >> d;
-
 
     dfs(1, 0, 0, 0, 0, inputNum[0]);
 
