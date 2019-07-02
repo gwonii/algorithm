@@ -76,8 +76,8 @@ CMakeLists.txt
 # for algorithm
 
 
-/Test/Test.cpp
-/Test/Test.h
+Test/Test.cpp
+Test/Test.h
 
 /SamsungSW/SamsungSW.h
 main.h
