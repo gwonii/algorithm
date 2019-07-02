@@ -17,7 +17,7 @@ int outNum[MAX_SIZE];
 
 void lotto(int current, int count) {
 
-    if(count == 6 ){
+    if(count == 6 ){ // 기저 조건
         for(int i = 0; i < 6; i++ ){
             cout << outNum[i] << " ";
         }
