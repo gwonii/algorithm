@@ -7,18 +7,16 @@
 
 using namespace std;
 
-
-void multiTable(int n) {
-    if (n == 10) {
-        cout << "end" << "\n";
-        return;
+int fac(int n) {
+    if(n == 1){
+        return 1;
     }
-    cout << "2 * " << n << " = " << 2 * n << "\n";
-    multiTable(n + 1);
+    return n * fac(n-1);
 }
 
 
 void testMethod() {
 
-    multiTable(1);
+        cout << fac(3) << "\n";
+
 }
