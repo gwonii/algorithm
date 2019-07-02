@@ -8,14 +8,17 @@
 using namespace std;
 
 
-void testMethod(){
+void multiTable(int n) {
+    if (n == 10) {
+        cout << "end" << "\n";
+        return;
+    }
+    cout << "2 * n" << 2 * n << "\n";
+    multiTable(n + 1);
+}
 
 
-    char input = 'a';
-    cout << input << "\n";
-    cout << (int)input << "\n";
-    int arr[5] = {1,2,3,4,5};
-    cout << arr[(int)input] << "\n";
+void testMethod() {
 
-
+    multiTable(1);
 }
