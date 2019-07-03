@@ -21,4 +21,7 @@
 #include "1025/CodeUp_1025.h"       // 정수 한 개 입력받아
                                     // 나누어 출력하기
 
+#include "1027/CodeUp_1027.h"       // 년월일 입력받아 형태 바꿔 출력하기
+
+
 #endif //CODEUP_1_BASIC_H
