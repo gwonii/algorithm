@@ -7,6 +7,7 @@
 
 void method_14888();
 void method_14888v2();
+void method_14888_v3();
 
 class Code_14888 {
 
