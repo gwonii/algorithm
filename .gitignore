@@ -82,8 +82,10 @@ CMakeLists.txt
 
 ## Baekjoon
 
-Test*/
-SamsungSW/SamsungSW.h
+Test.cpp
+Test.h
+
+SamsungSW.h
 main.h
 main.cpp
 
