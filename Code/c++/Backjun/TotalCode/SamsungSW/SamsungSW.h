@@ -25,6 +25,7 @@
 #include "2_bruteForce/6603/Code_6603.h"    // 로또
 #include "2_bruteForce/14888/Code_14888.h"  // 연산자 끼워넣기
 #include "2_bruteForce/1759/Code_1759.h"    // 암호 만들기
+#include "2_bruteForce/15649/Code_15649.h"  // N과 M(1)
 
 
 #include "GCD/Code_gcd.h"
