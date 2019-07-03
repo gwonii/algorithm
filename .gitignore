@@ -82,6 +82,7 @@ CMakeLists.txt
 
 ## Baekjoon
 
+*.h
 Code/**/Test.cpp
 Code/**/Test.h
 
