@@ -86,7 +86,10 @@ CMakeLists.txt
 Code/**/Test.cpp
 Code/**/Test.h
 
+*SamsungSW.h
 Code/**/SamsungSW.h
 main.h
 main.cpp
+
+
 
