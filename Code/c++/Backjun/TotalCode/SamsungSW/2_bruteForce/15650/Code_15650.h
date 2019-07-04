@@ -5,7 +5,7 @@
 #ifndef TOTALCODE_CODE_15650_H
 #define TOTALCODE_CODE_15650_H
 
-
+void method_15650();
 
 class Code_15650 {
 
