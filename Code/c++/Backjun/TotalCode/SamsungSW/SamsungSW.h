@@ -27,6 +27,10 @@
 #include "2_bruteForce/1759/Code_1759.h"    // 암호 만들기
 #include "2_bruteForce/15649/Code_15649.h"  // N과 M(1)
 #include "2_bruteForce/15650/Code_15650.h"  // N과 M(2)
+#include "2_bruteForce/15651/Code_15651.h"  // N과 M(3)
+#include "2_bruteForce/15652/Code_15652.h"  // N과 M(4)
+#include "2_bruteForce/15654/Code_15654.h"  // N과 M(5)
+#include "2_bruteForce/15655/Code_15655.h"  // N과 M(6)
 
 
 #include "GCD/Code_gcd.h"
