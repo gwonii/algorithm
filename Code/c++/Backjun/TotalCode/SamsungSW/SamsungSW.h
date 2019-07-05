@@ -33,6 +33,8 @@
 #include "2_bruteForce/15655/Code_15655.h"  // N과 M(6)
 #include "2_bruteForce/15656/Code_15656.h"  // N과 M(7)
 #include "2_bruteForce/15657/Code_15657.h"  // N과 M(8)
+#include "2_bruteForce/15663/Code_15663.h"  // N과 M(9)
+
 
 
 #include "GCD/Code_gcd.h"
