@@ -17,7 +17,7 @@ void method_5(){
     for(int i = 2; i < n+1; i++){
         checker[i] = true;
     }
-    checker[0]
+//    checker[0];
 
     for(int i = 2; i < n + 1; i++){
         for(int j = 2 * i; j < n + 1; j +=i){
