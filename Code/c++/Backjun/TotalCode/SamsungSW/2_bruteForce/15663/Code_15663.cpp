@@ -12,40 +12,21 @@
 
 
 #define MAX 9
-#define MAX_INDEX 100001
 
 using namespace std;
 
 int N_15663, M_15663;
 int arr_15663[MAX];
-
 bool check_15663[MAX] = {false, };
-
 vector<int> targetVector_15663;
+set<vector<int>> outputSet_15663;
 
-
-bool usedBool[MAX_INDEX] = {false, };
 
 void reculsive_15663() {
 
 
     if (targetVector_15663.size() == M_15663) {
-        int tempDouble = 0;
-        int tempInt = 0;
-
-        for (int i = 0; i < M_15663; i++) {
-            tempDouble += (int)(targetVector_15663[i] * pow(10, M_15663 - i - 1));
-
-        }
-        tempInt = (int)tempDouble;
-        cout << tempInt << "\n";
-        if (!usedBool[tempInt]) {
-            for (int i = 0; i < M_15663; i++) {
-                cout << targetVector_15663[i] << " ";
-            }
-            usedBool[tempInt] = true;
-            cout << "\n";
-        }
+        outputSet_15663.insert(targetVector_15663);
         return;
     } else {
         for (int i = 0; i < N_15663; i++) {
@@ -75,5 +56,11 @@ void method_15663() {
 
     reculsive_15663();
 
+    for(vector<int> i : outputSet_15663){
+        for(int j : i){
+            cout << j << " ";
+        }
+        cout << "\n";
+    }
 
 }
