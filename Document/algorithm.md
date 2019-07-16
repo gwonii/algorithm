@@ -385,5 +385,8 @@ static boolean isPossible(int c) {
 
 
 
+### 8. 그래프 
 
+* 그래프가 주어지면 DFS와 BFS를 고려해볼 수 있음 
+* 
 
